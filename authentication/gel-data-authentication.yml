@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.geldata.com/reference/auth
+docs: https://docs.geldata.com/reference/auth/http
+summary:
+  types: [http, oauth2, webauthn, magic-link, apiKey]
+  notes: Two distinct auth surfaces — (1) database connection auth via SCRAM/mTLS/secret
+    keys for clients and the CLI, and (2) the Gel Auth extension, a built-in identity
+    provider for application end-users.
+schemes:
+- name: gel-connection-scram
+  type: http
+  scheme: scram-sha-256
+  applies_to: database protocol / client libraries
+  source: https://docs.geldata.com/reference/reference/protocol
+- name: gel-cloud-secret-key
+  type: apiKey
+  in: header
+  applies_to: Gel Cloud instances and the HTTP endpoints
+  note: Bearer secret key generated via the CLI (gel cloud secretkey create)
+  source: https://docs.geldata.com/reference/running/http
+- name: gel-mtls
+  type: mutualTLS
+  applies_to: instance TLS; server presents a TLS cert, clients may pin/verify
+  source: https://docs.geldata.com/reference/running/configuration
+- name: gel-auth-oauth
+  type: oauth2
+  applies_to: Gel Auth extension — social login providers (Google, GitHub, Apple, Azure,
+    Discord, Slack) via OAuth 2.0 authorization code flow
+  source: https://docs.geldata.com/reference/auth/oauth
+- name: gel-auth-email-password
+  type: http
+  scheme: email-password
+  applies_to: Gel Auth extension — email/password sign-up and sign-in with PKCE
+  source: https://docs.geldata.com/reference/auth/email_password
+- name: gel-auth-magic-link
+  type: magic-link
+  applies_to: Gel Auth extension — passwordless email magic links
+  source: https://docs.geldata.com/reference/auth/magic_link
+- name: gel-auth-webauthn
+  type: webauthn
+  applies_to: Gel Auth extension — passkeys / WebAuthn
+  source: https://docs.geldata.com/reference/auth/webauthn
