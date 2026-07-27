@@ -1,8 +1,29 @@
 aid: gel-data
 name: Gel Data
-description: 'Gel Data is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: open-source. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Gel Data (formerly EdgeDB Inc.) builds Gel, an open-source graph-relational
+  database that supercharges PostgreSQL with a modern object-oriented data model,
+  the EdgeQL query language (with full SQL and GraphQL support), a built-in migration
+  and branching system, integrated authentication (OAuth, email/password, magic links,
+  passkeys/WebAuthn), and GenAI features (automatic embeddings, RAG, and vector search).
+  It ships official client libraries for TypeScript/JavaScript, Python, Go, Rust, .NET,
+  Dart, and Elixir, a first-party CLI, a built-in admin UI, an EdgeQL-over-HTTP and
+  GraphQL endpoint, an Auth HTTP API with webhooks, and an official MCP server for
+  AI coding agents. In late 2025 the company was acquired by Vercel and the managed
+  Gel Cloud is being wound down, but the database remains fully open source under the
+  geldata GitHub organization.'
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/14262913?v=4
 url: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Open Source
+- Database
+- PostgreSQL
+- Graph Database
+- GraphQL
+- Authentication
+- Artificial Intelligence
+- Vector Database
+- Developer Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,55 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.edgedb.com/
+  url: https://www.geldata.com/
+- type: DeveloperPortal
+  url: https://www.geldata.com/
+- type: Documentation
+  url: https://docs.geldata.com/
+- type: APIReference
+  url: https://docs.geldata.com/reference
+- type: GettingStarted
+  url: https://docs.geldata.com/learn/quickstart
+- type: Blog
+  url: https://www.geldata.com/blog
+- type: GitHubOrganization
+  url: https://github.com/geldata
+- type: Support
+  url: https://discord.gg/gel
+- type: Pricing
+  url: https://www.geldata.com/pricing
+- type: SignUp
+  url: https://cloud.geldata.com/
+- type: TermsOfService
+  url: https://www.geldata.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.geldata.com/privacy-policy
+- type: ChangeLog
+  url: https://docs.geldata.com/changelog
+- type: Webhooks
+  url: https://docs.geldata.com/reference/auth/webhooks
+- type: Packages
+  url: packages/gel-data-packages.yml
+- type: SDKs
+  url: packages/gel-data-packages.yml
+- type: MCPServer
+  url: mcp/gel-data-mcp.yml
+- type: CLI
+  url: cli/gel-data-cli.yml
+- type: Authentication
+  url: authentication/gel-data-authentication.yml
+- type: Conformance
+  url: conformance/gel-data-conformance.yml
+- type: Lifecycle
+  url: lifecycle/gel-data-lifecycle.yml
+- type: ChangeLog
+  url: changelog/gel-data-changelog.yml
+- type: LLMsTxt
+  url: llms/gel-data-llms.txt
+- type: DomainSecurity
+  url: security/gel-data-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

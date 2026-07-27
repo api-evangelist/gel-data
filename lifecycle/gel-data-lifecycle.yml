@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.geldata.com/changelog + https://www.geldata.com/updates
+versioning:
+  scheme: major-release
+  current: '7'
+  docs: https://docs.geldata.com/changelog
+  note: Numbered major releases (EdgeDB 1-5, then Gel 6, 7). Schema migrations and
+    database branching manage in-place upgrades.
+deprecation:
+  policy_url: https://docs.geldata.com/changelog
+  note: Breaking changes and deprecations are called out per major-version changelog.
+status_page:
+  url: https://www.gelstatus.com/
+  reachable: false
+  note: Cloud status page for Gel Cloud; unreachable as of 2026-07 during the Gel Cloud wind-down.
+wind_down:
+  event: Gel Data Inc. acquired by Vercel; managed Gel Cloud being shut down.
+  cloud_shutdown: '2026-01-31'
+  source: https://www.geldata.com/blog/gel-joins-vercel
+  note: The Gel database remains fully open source under github.com/geldata; only the
+    hosted Gel Cloud service is discontinued.

@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.geldata.com/reference
+standards:
+- id: oauth2
+  conforms: true
+  evidence: Gel Auth extension implements OAuth 2.0 authorization-code flow with PKCE
+    for social providers
+  docs: https://docs.geldata.com/reference/auth/oauth
+- id: webauthn
+  conforms: true
+  evidence: Gel Auth supports WebAuthn / passkeys registration and authentication
+  docs: https://docs.geldata.com/reference/auth/webauthn
+- id: graphql
+  conforms: true
+  evidence: Gel exposes a spec-compliant GraphQL endpoint over HTTP generated from the schema
+  docs: https://docs.geldata.com/reference/using/graphql
+- id: sql-postgres-wire
+  conforms: true
+  evidence: Gel speaks the PostgreSQL wire protocol and supports standard SQL queries
+  docs: https://docs.geldata.com/reference/using/sql
+- id: pkce
+  conforms: true
+  evidence: Gel Auth flows use PKCE (RFC 7636) for the authorization code exchange
+  docs: https://docs.geldata.com/reference/auth
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: HTTP errors are returned as Gel's own JSON error envelope, not application/problem+json

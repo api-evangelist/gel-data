@@ -1,0 +1,38 @@
+# Gel Data (Gel / formerly EdgeDB)
+
+> Gel is an open-source graph-relational database that supercharges PostgreSQL with a modern object-oriented data model, the EdgeQL query language (plus full SQL and GraphQL), a built-in migration and branching system, integrated authentication (OAuth, email/password, magic links, passkeys/WebAuthn), and GenAI features (automatic embeddings, RAG, vector search). Built by Gel Data Inc. (acquired by Vercel; managed Gel Cloud wound down), the database remains fully open source.
+
+## Docs
+- [Documentation](https://docs.geldata.com/): Full Gel documentation
+- [Quickstart](https://docs.geldata.com/learn/quickstart): Getting started with Gel
+- [API / Language Reference](https://docs.geldata.com/reference): EdgeQL, schema, stdlib, CLI, protocol
+- [EdgeQL over HTTP](https://docs.geldata.com/reference/using/http): Query a Gel instance over HTTP
+- [GraphQL](https://docs.geldata.com/reference/using/graphql): Auto-generated GraphQL endpoint
+- [Auth extension](https://docs.geldata.com/reference/auth): Built-in identity provider (OAuth, email/password, WebAuthn)
+- [Auth HTTP API](https://docs.geldata.com/reference/auth/http): Auth endpoints
+- [Auth webhooks](https://docs.geldata.com/reference/auth/webhooks): Identity event webhooks
+- [AI / RAG](https://docs.geldata.com/reference/ai): Embeddings, RAG, vector store
+- [Changelog](https://docs.geldata.com/changelog): Release notes per major version
+
+## Clients / SDKs
+- [TypeScript / JavaScript](https://www.npmjs.com/package/gel): npm install gel
+- [Python](https://pypi.org/project/gel/): pip install gel
+- [Go](https://pkg.go.dev/github.com/geldata/gel-go): go get github.com/geldata/gel-go
+- [Rust](https://crates.io/crates/gel-tokio): cargo add gel-tokio
+- [.NET](https://www.nuget.org/packages/Gel.Net.Driver): dotnet add package Gel.Net.Driver
+- [Elixir](https://hex.pm/packages/gel): hex package gel
+- [Dart](https://pub.dev/packages/gel): dart pub add gel
+- [Gel CLI](https://github.com/geldata/gel-cli): First-party CLI and REPL
+
+## Tooling
+- [MCP server](https://github.com/geldata/gel-mcp): Official Model Context Protocol server for AI coding agents
+- [GitHub organization](https://github.com/geldata): Open-source repositories
+- [Gel Cloud](https://cloud.geldata.com/): Managed service (winding down)
+
+## Company
+- [Website](https://www.geldata.com/)
+- [Blog](https://www.geldata.com/blog)
+- [Pricing](https://www.geldata.com/pricing)
+- [Community Discord](https://discord.gg/gel)
+- [Terms of Use](https://www.geldata.com/terms-of-use)
+- [Privacy Policy](https://www.geldata.com/privacy-policy)

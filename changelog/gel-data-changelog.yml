@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.geldata.com/changelog
+docs: https://docs.geldata.com/changelog
+releases_page: https://github.com/geldata/gel/releases
+scheme: major-release
+current_major: '7'
+note: Per-major-version changelogs are published at docs.geldata.com/changelog (e.g.
+  /changelog/7_x, /changelog/6_x). GitHub Releases at github.com/geldata/gel carry the
+  dated tags. Specific per-release dates are not reproduced here to avoid transcription
+  error; consult the source pages.
+milestones:
+- label: EdgeDB rebranded to Gel
+  detail: The 6.0 release introduced the Gel name, full SQL support, and the geldata.com domain.
+  source: https://www.geldata.com/blog/edgedb-is-now-gel-and-postgres-is-the-future
+- label: Gel joins Vercel
+  detail: Gel Data Inc. acquired by Vercel; managed Gel Cloud wound down while the database stays open source.
+  source: https://www.geldata.com/blog/gel-joins-vercel

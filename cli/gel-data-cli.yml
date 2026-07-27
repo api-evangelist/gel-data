@@ -1,0 +1,37 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.geldata.com/reference/cli
+name: Gel CLI
+binary: gel
+repo: https://github.com/geldata/gel-cli
+docs: https://docs.geldata.com/reference/cli
+official: true
+description: First-party command-line tool and interactive REPL for Gel — project
+  initialization, instance/branch management, schema migrations, querying, and cloud
+  administration.
+install:
+- method: shell
+  command: "curl https://www.geldata.com/sh | sh"
+- method: npx
+  command: npx gel
+- method: uvx
+  command: uvx gel
+- method: homebrew
+  command: brew tap geldata/tap && brew install gel-cli
+command_groups:
+- name: project
+  summary: Initialize and manage a Gel project (gel project init/unlink/info)
+- name: instance
+  summary: Create, start, stop, list, and destroy local/cloud instances
+- name: branch
+  summary: Create, switch, merge, and rebase database branches
+- name: migration
+  summary: Create, apply, and inspect schema migrations
+- name: cloud
+  summary: Authenticate and manage Gel Cloud instances (login, secret keys)
+- name: query
+  summary: Run EdgeQL queries from the shell
+- name: ui
+  summary: Open the built-in admin UI in a browser
+- name: dump/restore
+  summary: Back up and restore database contents

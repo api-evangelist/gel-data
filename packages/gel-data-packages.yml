@@ -1,0 +1,74 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/geldata + npm/PyPI/crates.io/hex.pm/pub.dev/NuGet registries
+packages:
+- language: javascript
+  registry: npm
+  name: gel
+  url: https://www.npmjs.com/package/gel
+  install: npm install gel
+  official: true
+  repo: https://github.com/geldata/gel-js
+  note: Official Node.js/TypeScript client library and query builder
+- language: javascript
+  registry: npm
+  name: "@gel/generate"
+  url: https://www.npmjs.com/package/@gel/generate
+  install: npx @gel/generate
+  official: true
+  repo: https://github.com/geldata/gel-js
+  note: TypeScript query-builder / code generator
+- language: python
+  registry: pypi
+  name: gel
+  url: https://pypi.org/project/gel/
+  install: pip install gel
+  official: true
+  repo: https://github.com/geldata/gel-python
+- language: go
+  registry: pkg.go.dev
+  name: github.com/geldata/gel-go
+  url: https://pkg.go.dev/github.com/geldata/gel-go
+  install: go get github.com/geldata/gel-go
+  official: true
+  repo: https://github.com/geldata/gel-go
+- language: rust
+  registry: crates.io
+  name: gel-tokio
+  url: https://crates.io/crates/gel-tokio
+  install: cargo add gel-tokio
+  official: true
+  repo: https://github.com/geldata/gel-rust
+- language: rust
+  registry: crates.io
+  name: gel-protocol
+  url: https://crates.io/crates/gel-protocol
+  install: cargo add gel-protocol
+  official: true
+  repo: https://github.com/geldata/gel-rust
+- language: elixir
+  registry: hex
+  name: gel
+  url: https://hex.pm/packages/gel
+  install: "{:gel, \"~> 0.1\"}"
+  official: true
+  repo: https://github.com/geldata/gel-elixir
+- language: dart
+  registry: pub.dev
+  name: gel
+  url: https://pub.dev/packages/gel
+  install: dart pub add gel
+  official: true
+- language: dotnet
+  registry: nuget
+  name: Gel.Net.Driver
+  url: https://www.nuget.org/packages/Gel.Net.Driver
+  install: dotnet add package Gel.Net.Driver
+  official: true
+- language: cli
+  registry: github
+  name: gel-cli
+  url: https://github.com/geldata/gel-cli
+  install: "curl https://www.geldata.com/sh | sh"
+  official: true
+  note: First-party Gel CLI / REPL; also available via npx gel and uvx gel
