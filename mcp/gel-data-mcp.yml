@@ -7,10 +7,9 @@ server:
   transport: stdio
   install: uvx --from git+https://github.com/geldata/gel-mcp.git gel-mcp
   official: true
-  description: Official Model Context Protocol server that gives AI coding agents access
-    to a Gel database. Also installs Gel rules files, the TypeScript query builder, and
-    the Python query builder/ORM into the current project. Supports Cursor, Claude Code,
-    VS Code Copilot, Windsurf, and Zed.
+  description: Official Model Context Protocol server that gives AI coding agents access to a Gel database.
+    Also installs Gel rules files, the TypeScript query builder, and the Python query builder/ORM into
+    the current project. Supports Cursor, Claude Code, VS Code Copilot, Windsurf, and Zed.
 tools:
 - name: execute_query
   description: Run an EdgeQL query against the configured Gel instance, with argument and global support.
@@ -24,3 +23,9 @@ tools:
   description: List available Gel rules configurations.
 - name: fetch_rule
   description: Fetch a specific Gel rule.
+deployment:
+  mode: local-stdio
+  verified: searched
+  tools: 6
+  checked: '2026-08-12'
+  source: catalog MCP census
