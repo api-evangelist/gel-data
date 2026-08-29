@@ -11,6 +11,17 @@ description: 'Gel Data (formerly EdgeDB Inc.) builds Gel, an open-source graph-r
   AI coding agents. In late 2025 the company was acquired by Vercel and the managed
   Gel Cloud is being wound down, but the database remains fully open source under the
   geldata GitHub organization.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
