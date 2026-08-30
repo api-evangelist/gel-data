@@ -74,6 +74,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/vercel/
+  name: Vercel
+  x-relationship: acquired
+  x-evidence: "In late 2025 the company was acquired by Vercel and the managed Gel Cloud is being wound down, but the database remains fully open source under the geldata GitHub organization."
 - type: Website
   url: https://www.geldata.com/
 - type: DeveloperPortal
