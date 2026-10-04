@@ -47,7 +47,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Open-Source
+- Open Source
 - Database
 - PostgreSQL
 - Graph Database
@@ -67,6 +67,7 @@ tags_raw:
 - Artificial Intelligence
 - Vector Database
 - Developer Tools
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
