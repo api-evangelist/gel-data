@@ -1,0 +1,47 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.geldata.com/pricing
+sources:
+- https://www.geldata.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Deploy in your AWS account
+  managed_tier: pro
+published: true
+note: All prices are given in USD for the aws-us-east-2 region.
+plan_count: 3
+currency: USD
+plans:
+- name: free
+  price_text: $0 /month
+  price: 0
+  currency: USD
+  period: month
+  unit: 1/4 compute unit
+  included_quota: 1/4 compute unit (1/2 GiB RAM, 1/16 vCPU), Up to 1GB of disk space, Data encrypted at
+    rest, Community support
+- name: pro
+  price_text: Starts at $ 19.50 /month
+  price: 19.5
+  currency: USD
+  period: month
+  unit: 1/2 compute units
+  included_quota: 1/2 compute units (1 GiB RAM, 1/8 vCPU), 10GiB of storage, 100GiB of transfer, Unlimited
+    number of reads/writes, Email support
+  overage: $0.50/GiB storage afterwards; $0.10/GiB transfer afterwards
+- name: enterprise
+  price_text: Custom pricing
+  period: none
+  included_quota: Priority support, Deploy in your AWS account, Custom contracts, Custom pricing based
+    on requirements, Volume discounts
+rate_limit_statements:
+- Unlimited number of reads/writes
