@@ -64,6 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gel Data is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: open-source. This profile is a lead awaiting the enrichment pipeline.
+Gel Data (formerly EdgeDB Inc.) builds Gel, an open-source graph-relational database that supercharges PostgreSQL with a modern object-oriented data model, the EdgeQL query language (with full SQL and GraphQL support), a built-in migration and branching system, integrated authentication (OAuth, email/password, magic links, passkeys/WebAuthn), and GenAI features (automatic embeddings, RAG, and vector search). It ships official client libraries for TypeScript/JavaScript, Python, Go, Rust, .NET, Dart, and Elixir, a first-party CLI, a built-in admin UI, an EdgeQL-over-HTTP and GraphQL endpoint, an Auth HTTP API with webhooks, and an official MCP server for AI coding agents. In late 2025 the company was acquired by Vercel and the managed Gel Cloud is being wound down, but the database remains fully open source under the geldata GitHub organization.
 
-Backed by: accel — https://www.edgedb.com/
+**Areas:** Company · Open Source · Database · PostgreSQL · Graph Database · GraphQL · Authentication · Artificial Intelligence · Vector Database · Developer Tools
+
+## Gel Data on APIs.io
+
+Everything profiled for Gel Data is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gel-data/](https://apis.io/providers/gel-data/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [gel-mcp](https://apis.io/servers/gel-data/gel-mcp/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gel Data Authentication](https://apis.io/security/gel-data/gel-data-authentication/)
+- [Gel Data Domain Security](https://apis.io/security/gel-data/gel-data-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Gel Data Plans Pricing](https://apis.io/plans/gel-data/gel-data-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.geldata.com/)
+- [Documentation](https://docs.geldata.com/)
+- [Getting started](https://docs.geldata.com/learn/quickstart)
+- [API reference](https://docs.geldata.com/reference)
+- [Pricing](https://www.geldata.com/pricing)
+- [Sign up](https://cloud.geldata.com/)
+- [Support](https://discord.gg/gel)
+- [Changelog](https://docs.geldata.com/changelog)
+- [Blog](https://www.geldata.com/blog)
+- [Terms of service](https://www.geldata.com/terms-of-use)
+- [Privacy policy](https://www.geldata.com/privacy-policy)
+- [GitHub](https://github.com/geldata)
+
+## API Evangelist rating
+
+**Kin Score 39.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.0 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 71.4 |
+| Access clarity | 63.2 |
+
+**Agent readiness 9.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gel-data/](https://apis.io/providers/gel-data/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gel Data: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gel-data/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
